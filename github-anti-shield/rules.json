@@ -8,7 +8,7 @@
           {
             "header": "Accept-Language",
             "operation": "set",
-            "value": "en-US"
+            "value": "en-US;q=0.8,en;q=0.7"
           }
         ]
       },

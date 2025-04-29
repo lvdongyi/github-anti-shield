@@ -1,4 +1,4 @@
-# Github-Anti-Shield
+# Github-Anti-Shield / Github 反屏蔽
 
 此扩展程序可以把Github相关请求头中的Accept-Language设置为en-US，从而避免Access has been restricted
 
