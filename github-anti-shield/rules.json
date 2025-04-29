@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "modifyHeaders",
+        "requestHeaders": [
+          {
+            "header": "Accept-Language",
+            "operation": "set",
+            "value": "en-US"
+          }
+        ]
+      },
+      "condition": {
+        "regexFilter": "https?://([A-Za-z0-9_-]+\\.)*(github\\.com|githubusercontent\\.com|githubassets\\.com)/.*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "xmlhttprequest",
+          "other"
+        ]
+      }
+    }
+  ]

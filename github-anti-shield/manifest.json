@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Github-Anti-Shield",
+  "version": "1.0",
+  "description": "对所有 GitHub 及其子域的请求强制使用 Accept-Language: en-US",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.github.com/*",
+    "*://*.githubusercontent.com/*",
+    "*://*.githubassets.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "acceptLangRules",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}
